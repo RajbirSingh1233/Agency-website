@@ -41,7 +41,7 @@ const data = {
 
 export default function ServiceSection() {
   return (
-    <Box sx={{ variant: 'section.services' }}>
+    <Box sx={{ variant: 'section.services', backgroundColor: 'black' }}>
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
           <Image src={ServiceThumb} alt="Thumbnail" />
@@ -137,7 +137,7 @@ const styles = {
     mt: '-5px',
     title: {
       fontSize: 3,
-      color: 'heading_secondary',
+      color: 'white',
       lineHeight: 1.4,
       fontWeight: 700,
       mb: [2, null, 3, 2, 3],
@@ -147,6 +147,7 @@ const styles = {
       fontSize: [1, null, null, '14px', 1],
       fontWeight: 400,
       lineHeight: 1.9,
+      color: 'white'
     },
   },
   videoWrapper: {

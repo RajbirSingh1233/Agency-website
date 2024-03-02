@@ -1,10 +1,10 @@
 export default {
   // example colors with dark mode
   colors: {
-    text: '#343D48', // body color and primary color
-    text_secondary: '#02073E', // secondary body color
-    heading: '#0F2137', // primary heading color
-    heading_secondary: '#0F2137', // heading color
+    text: '#FFFFFF', // body color and primary color
+    text_secondary: '#FFFFFF', // secondary body color
+    heading: '#FFFFFF', // primary heading color
+    heading_secondary: '#FFFFFF', // heading color
     background: '#FFFFFF !important', // body background color
     background_secondary: '#F9FBFD', // secondary background color
     border_color: '#E5ECF4', // border color

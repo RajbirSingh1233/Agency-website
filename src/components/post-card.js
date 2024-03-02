@@ -57,7 +57,7 @@ const styles = {
   },
   title: {
     fontSize: [3, null, null, null, null, 4],
-    color: 'heading',
+    color: 'primary',
     lineHeight: [1.4, 1.5],
     fontWeight: 700,
     mb: [3, 4, 5],
@@ -76,6 +76,7 @@ const styles = {
     date: {
       fontSize: ['14px', null, 2],
       fontWeight: 400,
+      color: 'primary',
       lineHeight: 1.5,
     },
   },

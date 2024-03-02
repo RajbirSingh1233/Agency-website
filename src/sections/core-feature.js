@@ -15,7 +15,7 @@ const data = {
 
 export default function CoreFeature() {
   return (
-    <Box sx={{ variant: 'section.coreFeature' }}>
+    <Box sx={{ variant: 'section.coreFeature', backgroundColor: 'black' }}>
       <Container sx={styles.containerBox}>
         <Box sx={styles.contentBox}>
           <TextFeature

@@ -71,7 +71,7 @@ const responsive = {
 
 export default function BlogSection() {
   return (
-    <Box sx={{ variant: 'section.news' }}>
+    <Box sx={{ variant: 'section.news', backgroundColor: 'black' }}>
       <Container>
         <SectionHeader
           slogan="our blog"

@@ -27,6 +27,7 @@ const styles = {
     mb: -1,
     textAlign: ['center', null, 'left'],
     px: [4, null, 0],
+    color: 'white'
   },
   img: {
     marginLeft: '-13px'
@@ -37,7 +38,7 @@ const styles = {
     flexDirection: 'column',
     title: {
       fontSize: 3,
-      color: 'heading_secondary',
+      color: 'white',
       lineHeight: 1.4,
       fontWeight: 700,
       mb: [2, null, 3],

@@ -26,11 +26,8 @@ export default function Home() {
           <Feature/>
           <CoreFeature/>
           <WorkFlow/>
-          <Package/>
           <TeamSection/>
           <TestimonialCard/>
-          <BlogSection/>
-          <Subscribe/>
         </Layout>
       </StickyProvider>
     </ThemeUIProvider>

@@ -60,14 +60,14 @@ const positionAnim = keyframes`
 
 const styles = {
   header: {
-    color: 'text',
+    color: 'white',
     fontWeight: 'body',
     py: 4,
     width: '100%',
     position: 'absolute',
     top: 0,
     left: 0,
-    backgroundColor: 'white',
+    backgroundColor: 'black',
     transition: 'all 0.4s ease',
     animation: `${positionAnim} 0.4s ease`,
     '.donate__btn': {
@@ -77,8 +77,7 @@ const styles = {
     },
     '&.sticky': {
       position: 'fixed',
-      backgroundColor: 'background',
-      color: '#000000',
+      backgroundColor: 'black',
       boxShadow: '0 1px 2px rgba(0, 0, 0, 0.06)',
       py: 3,
       'nev > a': {

@@ -78,7 +78,7 @@ const responsive = {
 
 export default function TestimonialCard() {
   return (
-    <Box id="testimonial" sx={{ variant: 'section.testimonial' }}>
+    <Box id="testimonial" sx={{ variant: 'section.testimonial', backgroundColor: 'black' }}>
       <Container css={{ textAlign: 'center' }}>
         <SectionHeader slogan="Testimonial" title="Meet Client Satisfaction" />
       </Container>
@@ -167,7 +167,7 @@ const styles = {
   reviewCard: {
     boxShadow: '0px 0px 1px rgba(38, 78, 118, 0.35)',
     transition: 'all 0.3s',
-    borderRadius: '6px',
+    borderRadius: '16px',
     p: [
       '30px 20px 35px',
       '30px 25px 35px',
@@ -232,13 +232,13 @@ const styles = {
     fontSize: [1, 2],
     fontWeight: 700,
     mb: [3, null, null, '22px'],
-    color: 'text',
+    color: 'black',
     lineHeight: 1.6,
   },
   description: {
     fontSize: [1, null, null, 2],
     fontWeight: 'normal',
-    color: 'text',
+    color: 'black',
     lineHeight: [1.85, null, 2],
   },
   heading: {

@@ -177,7 +177,7 @@ const data = [
 
 export default function TeamSection() {
   return (
-    <Box>
+    <Box sx={{paddingTop: '1rem', backgroundColor: 'black'}}>
       <Container>
         <SectionHeader
           slogan="our team"

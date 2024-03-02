@@ -7,10 +7,10 @@ export default function Banner() {
     <Box sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
-          <Heading as="h1" variant="heroPrimary">
+          <Heading as="h1" variant="heroPrimary" style={{color: 'white'}}>
             Top Quality Digital Products To Explore
           </Heading>
-          <Text as="p" variant="heroSecondary">
+          <Text as="p" variant="heroSecondary" style={{color: 'white'}}>
             Get your blood tests delivered at let home collect sample from the
             victory of the managements that supplies best design system
             guidelines ever.
@@ -30,6 +30,7 @@ const styles = {
     pt: ['140px', '145px', '155px', '170px', null, null, '180px', '215px'],
     pb: [2, null, 0, null, 2, 0, null, 5],
     position: 'relative',
+    backgroundColor: 'black',
     zIndex: 2,
     '&::before': {
       position: 'absolute',

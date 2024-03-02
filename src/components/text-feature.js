@@ -61,7 +61,7 @@ const styles = {
     },
     title: {
       fontSize: ['24px', null, '28px', '30px', '36px', '42px', null, '48px'],
-      color: 'heading_secondary',
+      color: 'white',
       lineHeight: [1.3, null, null, null, 1.2],
       fontWeight: '700',
       letterSpacing: '-.5px',
@@ -72,7 +72,7 @@ const styles = {
     fontSize: ['15px', 2, null, null, null, '17px', null, 3],
     fontWeight: 400,
     lineHeight: [1.85, null, null, 2, null, '2.2'],
-    color: 'text_secondary',
+    color: 'white',
     mb: '30px',
   },
 };
